@@ -7,5 +7,10 @@ pipeline {
                 echo 'Hello, from git!'
             }
         }
+        stage('Bye') {
+            steps {
+                echo 'Bye, from git!'
+            }
+        }
     }
 }
