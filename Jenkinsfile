@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Hook') {
             steps {
-                echo 'Hook Worked, from git!'
+                echo 'Hook Worked, from git!';
             }
         }
         stage('Bye') {
